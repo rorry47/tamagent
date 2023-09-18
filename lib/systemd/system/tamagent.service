@@ -1,0 +1,11 @@
+[Unit]
+Description=TAM agent
+
+[Service]
+Type=simple
+ExecStart="/usr/local/tamagent/tamagent.sh"
+Restart=always
+StartLimitIntervalSec=120
+
+[Install]
+WantedBy=multi-user.target
