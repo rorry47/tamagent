@@ -3,7 +3,7 @@
 BASH monitoring server and alert in Telegram
 
 ---
-# Install
+**Install**
 
 1. Create folder: 
 
